@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from flask import Flask, jsonify, render_template
 
 # Change this line and push to see the pipeline redeploy the app.
-MESSAGE = "Version 2 - deployed automatically with GitHub Actions"
+MESSAGE = "Version 3 - deployed automatically with GitHub Actions"
 
 
 def create_app():
